@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0;
+   
+}
+.Tab{
+    background-color: darkgoldenrod;
+    display: flex;
+    height: 500px;
+
+}
+.tabcont{
+    display: none;
+    
+}
+.active{
+    display: block;
+}
+.Sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: goldenrod;
+}
+button{
+    width: 300px;
+    border-radius: 20px;
+    height: 30px;
+    margin-top: 30px;
+    background-color: brown;
+}
+
+.alltab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}

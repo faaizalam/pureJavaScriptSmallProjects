@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Index.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.0/axios.min.js"
+        integrity="sha512-OdkysyYNjK4CZHgB+dkw9xQp66hZ9TLqmS2vXaBrftfyJeduVhyy1cOfoxiKdi4/bfgpco6REu6Rb+V2oVIRWg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="haeder">
+        <h1>Employeee</h1>
+        <button class="Add">Add Employeee</button>
+        
+        
+        <div class="model ">
+           <div class="card"> 
+            <div class="crosspos">
+                <span class="cross">X</span>
+
+            </div>
+            <div class="modelInput">
+                <form class="form_submit">
+                    <input type="text" class="name"  placeholder="name"></input>
+                    <input type="text" class="contact" placeholder="contact"></input>
+                    <input type="text" class="address" placeholder="Address"></input>
+                    <button type="submit">Submit</button>
+
+                </form>
+            </div>
+
+           </div>
+    
+        
+        </div>
+    </div>
+    <div class="main">
+
+        <div class="employess">
+            <h3 class="heading">Employe List</h3>
+            <div class="employenamelist"></div>
+
+
+        </div>
+        <div class="single">
+            <h3 class="heading">Employe Information</h3>
+            <div class="employeInfo">
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="head">
+                                fisrtname
+                                
+                            </th>
+                        <!-- </tr> -->
+                        <!-- <tr> -->
+                            <th>
+                                contact
+                                
+                            </th>
+                        <!-- </tr> -->
+                        <!-- <tr> -->
+                            <th>
+                                Address
+
+                            </th>
+                        </tr>
+
+                    </thead>
+                    <tbody>
+                        <tr id="trbd">
+                            
+                        </tr>
+
+
+
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="../Emplyee/Employee.js"></script>
+
+</body>
+
+</html>
